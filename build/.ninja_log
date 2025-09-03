@@ -1,0 +1,5 @@
+# ninja log v7
+2	917	1756915728089507113	CMakeFiles/vulcan-voxel.dir/main.cpp.o	3bcd0e7047d87c8f
+2	1081	1756915728088928443	_deps/glm-build/glm/CMakeFiles/glm.dir/detail/glm.cpp.o	17b36b2271471c07
+1082	1165	1756915729169092238	_deps/glm-build/glm/libglm.a	1bd715d5c852e99d
+1165	1230	1756915729252059792	vulcan-voxel	a7d80f418a37d0fc

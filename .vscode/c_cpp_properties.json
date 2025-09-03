@@ -1,49 +1,15 @@
 {
-    "configurations": [
-        {
-            "name": "Mac",
-            "includePath": [
-                "/Users/mac/Desktop/git/vulcan-voxel/**",
-                "/usr/local/include",
-                "/usr/local/lib",
-                "/Users/mac/VulkanSDK/1.4.321.0/macOS/include",
-                "/Users/mac/VulkanSDK/1.4.321.0/macOS/lib",
-                "/opt/homebrew/include",
-                "/opt/homebrew/Cellar/glfw/3.4/include"
-            ],
-            "defines": [],
-            "compilerPath": "/usr/bin/clang",
-            "cStandard": "c23",
-            "intelliSenseMode": "macos-clang-arm64",
-            "cppStandard": "c++20",
-            "compilerPathInCppPropertiesJson": "/usr/bin/clang",
-            "mergeConfigurations": false,
-            "recursiveIncludes": {},
-            "browse": {
-                "limitSymbolsToIncludedHeaders": true
-            }
-        },
-        {
-            "name": "VulcanDev",
-            "includePath": [
-                "/Users/mac/Desktop/git/vulcan-voxel/**",
-                "/usr/local/include",
-                "/usr/local/lib",
-                "/Users/mac/VulkanSDK/1.4.321.0/macOS/include",
-                "/Users/mac/VulkanSDK/1.4.321.0/macOS/lib"
-            ],
-            "defines": [],
-            "compilerPath": "/usr/bin/clang",
-            "cStandard": "c23",
-            "intelliSenseMode": "macos-clang-arm64",
-            "cppStandard": "c++20",
-            "compilerPathInCppPropertiesJson": "/usr/bin/clang",
-            "mergeConfigurations": false,
-            "recursiveIncludes": {},
-            "browse": {
-                "limitSymbolsToIncludedHeaders": true
-            }
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "name": "Mac",
+      "includePath": ["${workspaceFolder}/**", "/opt/homebrew/include",
+    "/opt/homebrew/Cellar/glfw/3.4/include"],
+      "defines": [],
+      "compilerPath": "/usr/bin/clang++",
+      "cStandard": "c17",
+      "cppStandard": "c++20",
+      "intelliSenseMode": "macos-clang-arm64"
+    }
+  ],
+  "version": 4
 }

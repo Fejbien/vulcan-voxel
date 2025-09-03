@@ -1,1 +1,0 @@
-/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/vulcan-voxel.dir/main.cpp.o" -o vulcan-voxel  -Wl,-rpath,/Users/mac/VulkanSDK/1.4.321.0/macOS/lib -Wl,-rpath,/opt/homebrew/lib /Users/mac/VulkanSDK/1.4.321.0/macOS/lib/libvulkan.dylib /opt/homebrew/lib/libglfw.3.4.dylib _deps/glm-build/glm/libglm.a

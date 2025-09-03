@@ -11,9 +11,16 @@ target_link_libraries(vulcan-voxel PRIVATE Vulkan::Vulkan)
 
 # Find GLFW3 from Homebrew
 find_package(glfw3 REQUIRED)
-target_link_libraries(vulcan-voxel PRIVATE glfw)
+# Use the modern imported target "glfw::glfw" if available, otherwise fallback to glfw
+if(TARGET glfw::glfw)
+	target_link_libraries(vulcan-voxel PRIVATE glfw::glfw)
+elseif(TARGET glfw)
+	target_link_libraries(vulcan-voxel PRIVATE glfw)
+else()
+	message(FATAL_ERROR "GLFW target not found. Please check your glfw3 installation.")
+endif()
 
-# GLM via CPM (if you want system GLM, use find_package(glm REQUIRED) instead)
+# GLM via CPM
 include(cmake/CPM.cmake)
 CPMAddPackage("gh:g-truc/glm#1.0.1")
 target_link_libraries(vulcan-voxel PRIVATE glm)

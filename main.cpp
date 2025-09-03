@@ -20,6 +20,8 @@ int main()
 
     std::cout << extensionCount << " extensions supported\n";
 
+    std::cout << "GLM test: ";
+
     glm::mat4 matrix;
     glm::vec4 vec;
     auto test = matrix * vec;
