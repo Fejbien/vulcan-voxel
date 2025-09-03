@@ -1,0 +1,8 @@
+/Users/mac/Desktop/git/vulcan-voxel/build/CMakeFiles/vulcan-voxel.dir
+/Users/mac/Desktop/git/vulcan-voxel/build/CMakeFiles/edit_cache.dir
+/Users/mac/Desktop/git/vulcan-voxel/build/CMakeFiles/rebuild_cache.dir
+/Users/mac/Desktop/git/vulcan-voxel/build/_deps/glm-build/CMakeFiles/edit_cache.dir
+/Users/mac/Desktop/git/vulcan-voxel/build/_deps/glm-build/CMakeFiles/rebuild_cache.dir
+/Users/mac/Desktop/git/vulcan-voxel/build/_deps/glm-build/glm/CMakeFiles/glm.dir
+/Users/mac/Desktop/git/vulcan-voxel/build/_deps/glm-build/glm/CMakeFiles/edit_cache.dir
+/Users/mac/Desktop/git/vulcan-voxel/build/_deps/glm-build/glm/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/mac/Desktop/git/vulcan-voxel/build/cmake_install.cmake",
+		"/Users/mac/Desktop/git/vulcan-voxel/build/_deps/glm-build/cmake_install.cmake",
+		"/Users/mac/Desktop/git/vulcan-voxel/build/_deps/glm-build/glm/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
