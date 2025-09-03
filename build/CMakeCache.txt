@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Disable global testing in dependencies
+BUILD_TESTING:BOOL=OFF
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 
@@ -382,6 +385,9 @@ GLM_ENABLE_SIMD_SSSE3:BOOL=OFF
 
 //Force 'pure' instructions
 GLM_FORCE_PURE:BOOL=OFF
+
+//Alias disable tests
+GLM_TEST_ENABLE:BOOL=OFF
 
 //Path to a program.
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=/Users/mac/VulkanSDK/1.4.321.0/macOS/bin/glslangValidator

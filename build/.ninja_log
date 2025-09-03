@@ -1,5 +1,23 @@
 # ninja log v7
-2	917	1756915728089507113	CMakeFiles/vulcan-voxel.dir/main.cpp.o	3bcd0e7047d87c8f
-2	1081	1756915728088928443	_deps/glm-build/glm/CMakeFiles/glm.dir/detail/glm.cpp.o	17b36b2271471c07
-1082	1165	1756915729169092238	_deps/glm-build/glm/libglm.a	1bd715d5c852e99d
-1165	1230	1756915729252059792	vulcan-voxel	a7d80f418a37d0fc
+1	122	1756927229462149689	/Users/mac/Desktop/git/vulcan-voxel/build/CMakeFiles/cmake.verify_globs	abfdd142356203bb
+130	1113	1756927408209584569	build.ninja	78854fd66aabad0d
+130	1113	1756927408206114937	/Users/mac/Desktop/git/vulcan-voxel/build/cmake_install.cmake	78854fd66aabad0d
+130	1113	1756927408206657771	/Users/mac/Desktop/git/vulcan-voxel/build/_deps/glm-build/cmake_install.cmake	78854fd66aabad0d
+130	1113	1756927408208266650	/Users/mac/Desktop/git/vulcan-voxel/build/_deps/glm-build/glm/cmake_install.cmake	78854fd66aabad0d
+124	1100	1756927229585721479	CMakeFiles/vulcan-voxel.dir/vve_window.cpp.o	29b899a8c8de0736
+123	1519	1756927229584895561	CMakeFiles/vulcan-voxel.dir/main.cpp.o	8dc9d03f2262519
+123	1610	1756927229584140934	_deps/glm-build/glm/CMakeFiles/glm.dir/detail/glm.cpp.o	1766ce18646fa986
+1610	1687	1756927231071864506	_deps/glm-build/glm/libglm.a	1bd715d5c852e99d
+9	875	1756927435950359681	CMakeFiles/vulcan-voxel.dir/vve_window.cpp.o	2dbd521424a81561
+8	877	1756927435949898805	CMakeFiles/vulcan-voxel.dir/firstApp.cpp.o	6b52f4436b0c04e1
+8	1216	1756927435949459096	CMakeFiles/vulcan-voxel.dir/main.cpp.o	3bcd0e7047d87c8f
+7	1512	1756927435948730386	_deps/glm-build/glm/CMakeFiles/glm.dir/detail/glm.cpp.o	17b36b2271471c07
+1512	1575	1756927437453733119	_deps/glm-build/glm/libglm.a	1bd715d5c852e99d
+1575	1636	1756927437517288287	vulcan-voxel	5a2a52ae8da6a975
+6	659	1756927719074382280	CMakeFiles/vulcan-voxel.dir/firstApp.cpp.o	6b52f4436b0c04e1
+6	664	1756927719074583363	CMakeFiles/vulcan-voxel.dir/vve_window.cpp.o	2dbd521424a81561
+6	957	1756927719073909404	CMakeFiles/vulcan-voxel.dir/main.cpp.o	3bcd0e7047d87c8f
+958	1019	1756927720025884816	vulcan-voxel	5a2a52ae8da6a975
+9	561	1756927772619155416	CMakeFiles/vulcan-voxel.dir/firstApp.cpp.o	6b52f4436b0c04e1
+8	875	1756927772618721665	CMakeFiles/vulcan-voxel.dir/main.cpp.o	3bcd0e7047d87c8f
+875	939	1756927773485299739	vulcan-voxel	5a2a52ae8da6a975

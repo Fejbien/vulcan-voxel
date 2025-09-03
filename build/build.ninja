@@ -57,6 +57,22 @@ build CMakeFiles/vulcan-voxel.dir/main.cpp.o: CXX_COMPILER__vulcan-voxel_unscann
   OBJECT_DIR = CMakeFiles/vulcan-voxel.dir
   OBJECT_FILE_DIR = CMakeFiles/vulcan-voxel.dir
 
+build CMakeFiles/vulcan-voxel.dir/firstApp.cpp.o: CXX_COMPILER__vulcan-voxel_unscanned_Debug /Users/mac/Desktop/git/vulcan-voxel/firstApp.cpp || cmake_object_order_depends_target_vulcan-voxel
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/vulcan-voxel.dir/firstApp.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64
+  INCLUDES = -isystem /Users/mac/VulkanSDK/1.4.321.0/macOS/include -isystem /opt/homebrew/include -isystem /Users/mac/Desktop/git/vulcan-voxel/build/_deps/glm-src
+  OBJECT_DIR = CMakeFiles/vulcan-voxel.dir
+  OBJECT_FILE_DIR = CMakeFiles/vulcan-voxel.dir
+
+build CMakeFiles/vulcan-voxel.dir/vve_window.cpp.o: CXX_COMPILER__vulcan-voxel_unscanned_Debug /Users/mac/Desktop/git/vulcan-voxel/vve_window.cpp || cmake_object_order_depends_target_vulcan-voxel
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/vulcan-voxel.dir/vve_window.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64
+  INCLUDES = -isystem /Users/mac/VulkanSDK/1.4.321.0/macOS/include -isystem /opt/homebrew/include -isystem /Users/mac/Desktop/git/vulcan-voxel/build/_deps/glm-src
+  OBJECT_DIR = CMakeFiles/vulcan-voxel.dir
+  OBJECT_FILE_DIR = CMakeFiles/vulcan-voxel.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target vulcan-voxel
@@ -65,7 +81,7 @@ build CMakeFiles/vulcan-voxel.dir/main.cpp.o: CXX_COMPILER__vulcan-voxel_unscann
 #############################################
 # Link the executable vulcan-voxel
 
-build vulcan-voxel: CXX_EXECUTABLE_LINKER__vulcan-voxel_Debug CMakeFiles/vulcan-voxel.dir/main.cpp.o | /Users/mac/VulkanSDK/1.4.321.0/macOS/lib/libvulkan.dylib /opt/homebrew/lib/libglfw.3.4.dylib _deps/glm-build/glm/libglm.a || _deps/glm-build/glm/libglm.a
+build vulcan-voxel: CXX_EXECUTABLE_LINKER__vulcan-voxel_Debug CMakeFiles/vulcan-voxel.dir/main.cpp.o CMakeFiles/vulcan-voxel.dir/firstApp.cpp.o CMakeFiles/vulcan-voxel.dir/vve_window.cpp.o | /Users/mac/VulkanSDK/1.4.321.0/macOS/lib/libvulkan.dylib /opt/homebrew/lib/libglfw.3.4.dylib _deps/glm-build/glm/libglm.a || _deps/glm-build/glm/libglm.a
   CONFIG = Debug
   FLAGS = -g -arch arm64
   LINK_FLAGS = -Wl,-search_paths_first -Wl,-headerpad_max_install_names
